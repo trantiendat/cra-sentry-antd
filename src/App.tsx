@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div className="App">
-        <input type="button" onClick={onErrorButtonClickHandle} value="Throw Error" />
+      <input type="button" onClick={onErrorButtonClickHandle} value="Throw Error" />
     </div>
   );
 }

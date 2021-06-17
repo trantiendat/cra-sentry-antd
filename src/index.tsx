@@ -14,7 +14,7 @@ Sentry.init({
   // of transactions for performance monitoring.
   // We recommend adjusting this value in production
   tracesSampleRate: 1.0,
-  release: "cra-sentry-antd@" + process.env.npm_package_version,
+  release: "1.0",
 });
 
 ReactDOM.render(
